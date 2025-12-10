@@ -9,7 +9,7 @@ Additionally, this tool ensures that the UniFi Network API key and other technic
 - Hosts an HTML page showing a generated QR code for WIFI access and a list of active hotspot vouchers
 - You can freely adapt the HTML page to your needs and design.
 - Pulls voucher data from the official UniFi Network API
-- Shows a list of currently active hotspot vouchers
+- Shows a list of currently valid hotspot vouchers (see [known limitations](#known-limitations))
 - Runs inside a Docker container for easy deployment
 
 ## Requirements
