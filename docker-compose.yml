@@ -1,0 +1,10 @@
+services:
+  unifi_voucher_display:
+    build: ./app
+    container_name: unifi_voucher_display
+    restart: unless-stopped
+    env_file: ".env"
+    volumes:
+      - ./app/static:/static
+    ports:
+      - 5005:5005
