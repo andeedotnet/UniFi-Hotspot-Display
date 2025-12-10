@@ -6,8 +6,6 @@
 *.test
 *.out
 go.work
-vendor/
-app/static
 .env
 .DS_Store
 .AppleDouble
