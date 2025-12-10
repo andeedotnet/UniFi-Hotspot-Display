@@ -12,6 +12,8 @@ Additionally, this tool ensures that the UniFi Network API key and other technic
 - Shows a list of currently valid hotspot vouchers (see [known limitations](#known-limitations))
 - Runs inside a Docker container for easy deployment
 
+![Screenshot](docs/screenshot.png "Screenshot")
+
 ## Requirements
 
 - Docker
