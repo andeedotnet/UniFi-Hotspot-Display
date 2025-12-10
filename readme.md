@@ -42,6 +42,7 @@ Environment variables should be defined in a ```.env```file.
 
 ```
 TZ=Europe/Berlin
+LISTEN_PORT=5005
 
 # Unifi Network API settings
 UNIFI_HOST=

@@ -14,7 +14,7 @@ import (
 	qrcode "github.com/skip2/go-qrcode"
 )
 
-var webserver_port = getEnv("PORT", "5005")
+var webserver_port = getEnv("LISTEN_PORT", "5005")
 
 var unifi_host = getEnv("UNIFI_HOST", "")
 var unifi_siteID = getEnv("UNIFI_SITE_ID", "")
