@@ -6,6 +6,7 @@
 *.test
 *.out
 go.work
+wifi.png
 .env
 .DS_Store
 .AppleDouble
